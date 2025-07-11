@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f3f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left-box, .right-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  width: 400px;
+  text-align: left;
+}
+
+.left-box h2, .right-box h2 {
+  margin-bottom: 10px;
+}
+
+.left-box p, .right-box p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.gitlab {
+  background-color: #fc6d26;
+  color: white;
+}
+
+.github {
+  background-color: #333;
+  color: white;
+}
+
+.bitbucket {
+  background-color: #2684FF;
+  color: white;
+}
+
+.or {
+  margin: 20px 0 10px;
+  font-size: 13px;
+  color: #777;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f6d79e;
+  color: #8c6211;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.right-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.right-box li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.right-box li span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.right-box li button {
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  padding: 6px 12px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 40px 20px 10px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+  font-size: 13px;
+}
